@@ -1,0 +1,51 @@
+Pseudocode:
+Create BST for students. 
+Create BST for students.
+Create empty lists for students, courses, and IDs. 
+Add some courses for six semesters.
+Set up random ID generation. 
+Show the user a menu:
+Register a student.
+Remove a student by ID.
+Show all students.
+Show students by tree traversal 
+Enroll in courses.
+Show student’s courses. 
+Search by ID
+Exit.
+Ask the user to choice an option.
+If the user choice 1 (Add a student):
+Ask for the student’s name, GPA, and department. 
+Create a unique ID.
+Ask where to insert the student. 
+Add the student to the list.
+Show a success message.
+If the user choice 2 (Remove a student by ID): 
+Ask for ID.
+Remove the student and their courses. 
+Free the ID.
+Show a confirmation message.
+If the user choice 3 (Show all students): 
+If list is empty, show "No students." 
+Else, show student details.
+If the user choice is 4 (Show students by BST):
+Ask for traversal type (In-order, Pre-order, Post-order). 
+Show students in that order.
+If the user choice 5 (Enroll in courses): 
+Ask for the student’s ID.
+Check their GPA.
+Let the user add courses for a semester. 
+Show a confirmation message.
+If the user choice 6 (Show a student’s courses): 
+Ask for the student’s ID.
+Show their courses.
+If the user choice is 7 (Search by ID): 
+Ask for ID.
+If found, show details and courses. 
+Else, say "Not found."
+If the user choice 8 (Exit):
+Show "Exiting..." and stop the program.
+If the user choice something else: 
+Show "Invalid choice. Try again."
+Repeat the menu until the user choice "Exit." 
+End the Program.

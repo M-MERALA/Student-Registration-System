@@ -1,0 +1,36 @@
+Pseudocode:
+ Create empty lists for students, courses, and IDs.
+ Add some courses for six semesters.
+Set up random ID generation.
+Show the user a menu:
+ Add a student.
+ Remove the first student.
+ Show all students.
+ Add courses for a student.
+ Show a student’s courses.
+ Exit.
+Ask the user to pick an option.
+If the user picks 1 (Add a student):
+ Ask for the student’s name, GPA, and department.
+ Create a unique ID.
+ Add the student to the list.
+ Show a success message.
+If the user picks 2 (Remove the first student):
+ Remove the first student from the list.
+ Show a confirmation message.
+If the user picks 3 (Show all students):
+ Show all students’ details.
+If the user picks 4 (Add courses for a student):
+ Ask for the student’s ID.
+ Check their GPA.
+ Let the user add courses for a semester.
+ Show a confirmation message.
+If the user picks 5 (Show a student’s courses):
+ Ask for the student’s ID.
+ Show their courses.
+If the user picks 6 (Exit):
+ Show "Exiting..." and stop the program.
+If the user picks something else:
+ Show "Invalid choice. Try again."
+Repeat the menu until the user picks "Exit."
+End the Program.
